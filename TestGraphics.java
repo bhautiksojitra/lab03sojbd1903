@@ -1,33 +1,10 @@
 
-/**
- * Write a description of class TestGraphics here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class TestGraphics
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class TestGraphics
-     */
-    public TestGraphics()
+    public static void main(String[] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        //calling static method to import picture from PNG file.
+        StdDraw.picture(0.5,0.5,"emoji.png");
     }
 }
